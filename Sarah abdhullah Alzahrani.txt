@@ -1,0 +1,125 @@
+Question
+Student's Answer
+Correct Answer
+Marks
+Comments
+Q1.1 D 
+❌ B
+0/1 
+Incorrect: nums[1:4] refers to [2, 3, 4], not [1, 2, 3].
+Q1.2
+B
+✅ B
+1/1
+Correct: Accessing a missing key raises KeyError.
+Q1.3 C 
+✅ C, D
+0.5/1 
+Partially correct: (1, 2, 3) is a tuple, but 1, 2, 3 is also a valid tuple without parentheses.
+Q1.4 C 
+✅ C
+1/1 
+Correct: A class defines a blueprint for objects.
+Q1.5 B 
+✅ B
+1/1 
+Correct: read() reads the entire file as a string.
+Q1.6 B 
+✅ B
+1/1 
+Correct: \d+ matches one or more digits.
+Q1.7 C 
+✅ C
+1/1 
+Correct: Tuples are immutable; elements cannot be changed.
+Q1.8 C 
+✅ C
+1/1 
+Correct: "w" mode overwrites existing files.
+Q1.9 D 
+✅ B, D
+0.5/1 
+Partially correct: {} is also a valid dictionary (empty dictionary).
+Q1.10 B, C 
+❌ B
+0.5/1 
+Partially correct: .append(10) is correct, but .insert(10) requires an index.
+Total Score for Q1.1 – Q1.10:
+✅ 7.5/10
+********
+
+Part 2 :
+
+Question
+Marks
+Comments
+Q2.1: Difference between list and string 2/2 
+Excellent explanation with key differences: mutability, operations, and behavior.
+Q2.2: Check if a key exists in a dictionary 2/2 
+Correct usage of the in operator, concise and clear.
+Q2.3: Modifying a list inside a tuple 2/2 
+Correct explanation with an example—clearly differentiates mutability of lists vs. tuples.
+Q2.4: Regex pattern for YYYY-MM-DD 2/2 
+Perfect regex for extracting dates.
+Q2.5: Four pillars of OOP 2/2 
+Correctly listed all four core OOP principles.
+Total Score for Q2.1 – Q2.5:
+✅ 10/10
+********
+
+Part iii :
+
+Q3.1
+Criteria
+Marks
+Comments
+Random List Generation 1/1 
+✅ Correctly generates a list of 10 random numbers between 1 and 100.
+Counting Even and Odd Numbers 1/1 
+✅ Properly counts even and odd numbers using a loop.
+Calculating Average 1/1 
+✅ Uses sum(numbers) / len(numbers), which is the correct approach.
+Sorting the List 1/1 
+✅ Uses sorted(numbers), which correctly sorts the list in ascending order.
+Code Readability & Structure 1/1 
+✅ Code is well-structured and easy to understand, with comments in Arabic explaining each step.
+Output Format & Clarity 1/1 
+✅ Clearly prints all required outputs in a readable format.
+Final Score: 6/6 ✅
+
+Q3.3
+Criteria
+Marks
+Comments
+Creating a list of at least 5 menu items 1/1 
+✅ The program correctly asks for user input and ensures at least 5 items.
+Sorting menu items by price in ascending order 1/1 
+✅ The menu is sorted correctly using sorted(menu, key=lambda item: item[1]).
+Allowing the user to search for an item by name 1/1 
+✅ The search mechanism works correctly using lower() to ensure case-insensitive matching.
+Handling input validation for menu size and price 1/1 
+✅ The program properly handles invalid inputs for both the number of items and prices.
+Code Readability & Structure 1/1 
+✅ The code is clear, structured, and easy to follow.
+Output Format & Clarity 1/1
+✅ Clearly prints all required outputs in a readable format.
+Final Score: 6/6 ✅
+ 
+Q3.4
+Criteria
+Marks
+Comments
+Reading the file correctly 1/1 
+✅ The program correctly opens and reads the file using with open(), and it properly handles the FileNotFoundError.
+Extracting spam confidence values from lines 1/1 
+✅ The program correctly identifies lines starting with "X-DSPAM-Confidence:" and extracts the floating-point value.
+Calculating the average spam confidence 1/1 
+✅ The program correctly computes the average using sum(spam_confidences) / len(spam_confidences).
+Counting lines based on spam confidence values
+1/1
+✅ It correctly counts how many values are above or below the average.
+Handling errors & edge cases 1/1 
+✅ The program properly checks for an empty list (if not spam_confidences:) and handles invalid float conversions.
+Code Efficiency & Readability 0.5/1 
+⚠️ The split() method works, but using line.removeprefix("X-DSPAM-Confidence:").strip() would be cleaner. Additionally, using sum(1 for value in spam_confidences if value >= average_confidence) would be more efficient for counting.
+Final Score: 5.5/6 ✅

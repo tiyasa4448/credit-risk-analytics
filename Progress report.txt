@@ -1,0 +1,25 @@
+  
+Progress Report
+Student Name: Mishary Nahid Alrabih
+
+Course: Python Programming -  Vision Aid Academy
+Instructor: Shyam Prasad Kodali
+Date: 27/2/2025
+ 
+Attendance
+Mishary has demonstrated an exceptional commitment to the course, maintaining a 100% attendance record throughout the Python programming sessions. His dedication to attending every class has significantly contributed to his understanding of the subject matter.
+Homework Submission
+The course included 11 homework assignments, all of which Mishary submitted on time. His submissions were consistently well-structured, demonstrating a solid grasp of the concepts taught in class. His ability to apply theoretical knowledge to practical problems was evident in his assignments.
+Assessment Performance
+Mishary performed remarkably well in both assessments:
+• 
+First Assessment: 94%
+These scores reflect Mishary's deep understanding of Python programming concepts, his logical thinking abilities, and his problem-solving skills.
+Skills and Strengths
+• 
+Understanding of Core Python Concepts: Mishary has a strong grasp of programming fundamentals, including variables, data types, conditionals, loops, and functions.
+Areas for Improvement
+While Mishary has excelled in all areas, continued practice in advanced topics such as object-oriented programming and file handling will further strengthen his expertise. Exploring real-world applications of Python and working on small projects will help refine his coding skills even more.
+Instructor’s Remarks
+Mishary has shown exceptional progress throughout the course. His consistent effort, punctuality, and enthusiasm for learning have set him apart as a dedicated student. I encourage him to continue practicing Python beyond the course and explore more challenging programming projects.
+Overall Performance: Outstanding

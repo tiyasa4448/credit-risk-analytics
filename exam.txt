@@ -1,0 +1,68 @@
+Lists
+1. Write a Python program to remove all duplicate elements from a list and print the updated list.
+2. Given a list of numbers, write a Python function to find and return the second largest element.
+3. Write a Python program to merge two sorted lists into a single sorted list without using built-in sorting functions.
+4. Write a program that takes a list of numbers and returns a new list with only the even numbers.
+5. How is a list different from a tuple in Python? Explain with an example.
+ 
+Tuples
+6. Write a Python program to count the number of occurrences of an element in a tuple.
+7. Given a tuple t = (1, 2, 3, [4, 5]), explain whether you can modify the list inside the tuple.
+8. Convert a given tuple into a dictionary where each tuple element is a key, and its index is the value.
+9. Write a Python program to find the maximum and minimum values in a tuple of numbers.
+10. What are the advantages of using tuples over lists in Python?
+ 
+Dictionaries
+11. Write a Python program to merge two dictionaries into one.
+12. Given a dictionary {‘a’: 10, ‘b’: 20, ‘c’: 30}, write a program to print all keys and values separately.
+13. Write a program to find the sum of all values in a dictionary.
+14. How can you check if a given key exists in a dictionary? Write a Python example.
+15. What are dictionary comprehension and its advantages? Provide an example.
+ 
+Regular Expressions
+16. Write a Python program using regular expressions to validate an email address.
+17. Explain what \d, \s, and \w mean in Python regex with examples.
+18. Write a Python program to find all occurrences of a word in a given text using regex.
+19. Write a regex pattern to extract all dates in the format DD-MM-YYYY from a text.
+20. What is the difference between re.search() and re.match()? Explain with examples.
+ 
+Object-Oriented Programming (OOPs)
+21. What are the four pillars of Object-Oriented Programming? Explain each with an example.
+22. Define a class Car with attributes brand, model, and year. Add a method to display the details of the car.
+
+1. Lists
+🔹 Write a Python program that takes a list of numbers as input and returns a new list with only the prime numbers.
+Example:
+Input: [10, 3, 5, 8, 13, 17, 20]  
+Output: [3, 5, 13, 17]  
+ 
+2. Tuples
+🔹 Given a tuple containing student names and marks, write a program to find the student with the highest marks.
+Example:
+Input: (("Alice", 85), ("Bob", 92), ("Charlie", 88))  
+Output: Bob has the highest marks: 92  
+ 
+3. Dictionaries
+🔹 Write a Python program that counts the occurrences of each word in a given sentence and stores the result in a dictionary.
+Example:
+Input: "apple banana apple orange banana apple"  
+Output: {'apple': 3, 'banana': 2, 'orange': 1}  
+ 
+4. Regular Expressions (Regex)
+🔹 Write a Python program using regular expressions to validate if an input string is a valid IP address (IPv4).
+Example:
+Input: "192.168.1.1"  
+Output: Valid IP Address  
+
+Input: "256.100.50.25"  
+Output: Invalid IP Address  
+ 
+5. Object-Oriented Programming (OOPs)
+🔹 Define a Python class BankAccount with attributes account_number and balance. Add methods to deposit, withdraw, and display balance.
+Example:
+acc = BankAccount(12345, 1000)  
+acc.deposit(500)  
+acc.withdraw(300)  
+acc.display_balance()  
+Expected Output:
+Balance: 1200  

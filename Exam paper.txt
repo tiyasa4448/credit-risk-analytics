@@ -1,0 +1,122 @@
+SECTION A — MCQs (10 × 1 = 10 marks)
+(Choose the correct option.)
+1. 
+Which of the following is immutable?
+a) List
+b) Dictionary
+c) Tuple
+d) Set
+2. 
+Which function is used to take input from the user?
+a) type()
+b) input()
+c) print()
+d) read()
+3. 
+open("data.txt", "r") opens a file in:
+a) Write mode
+b) Read mode
+c) Append mode
+d) Binary mode
+4. 
+Which loop guarantees definite iteration?
+a) while
+b) for
+c) do-while
+d) repeat
+5. 
+What does find() return if substring is not found?
+a) 0
+b) False
+c) -1
+d) None
+6. 
+A dictionary stores data in:
+a) Ordered pairs
+b) Key–value pairs
+c) Sorted lists
+d) Indexed arrays
+7. 
+Which keyword defines a class?
+a) def
+b) new
+c) class
+d) object
+8. 
+Which regex symbol matches one or more occurrences?
+a) *
+b) +
+c) ?
+d) .
+9. 
+break is used to:
+a) Skip one iteration
+b) Exit loop immediately
+c) Restart loop
+d) End program
+10. 
+Tuples can be used as dictionary keys because they are:
+a) Mutable
+b) Immutable
+c) Nested
+d) Dynamic
+ 
+SECTION B — Short Questions (5 × 2 = 10 marks)
+(Answer in 2–3 lines.)
+1. 
+Explain the difference between =` and == in Python.
+2. 
+What is the purpose of the continue statement in loops?
+3. 
+Define string slicing with an example.
+4. 
+How does try–except help while opening files?
+5. 
+What are regular expressions used for in Python?
+ 
+SECTION C — Programming Questions (6 × 5 = 30 marks)
+1.
+An email address consists of two parts: the username and the domain (e.g., rahul.mondal12@gmail.com).
+Write a Python program that accepts an email address from the user and extracts the username (the part before the @ symbol) using string slicing. Print the extracted username.
+ 
+2.
+You are given a list representing the daily prices of groceries in a shop:
+[120, 135, 110, 145, 160, 155]
+Write a Python program to:
+a) Calculate and print the average price
+b) Identify and print the highest price and its position
+c) Apply a discount of ₹10 to each price and print the updated list
+ 
+3.
+Create a Python program that allows a user to continuously input movie names and their ratings (from 1 to 5).
+Store this information in a dictionary until the user enters "stop".
+Finally, display:
+a) All movie–rating pairs
+b) The movie with the highest rating
+ 
+4.
+You are given a list of student records stored as tuples:
+[("Asha", 92), ("Rohan", 81), ("Kriti", 95), ("Sam", 74)]
+Write a Python program to sort this list in descending order of marks and display the sorted list of tuples.
+ 
+5.
+Define a class Order with attributes:
+• 
+item_name
+• 
+quantity
+• 
+price_per_unit
+Include a method total_price() that returns the total price of the order.
+Create two objects of the class, display their details, and print which order has the higher total price.
+ 
+6.
+Write a Python program using regular expressions to extract all valid Indian mobile numbers from a given paragraph of text.
+Consider valid formats such as:
+• 
+9876543210
+• 
++91 9876543210
+• 
++91-9876543210
+Print all the mobile numbers found in the text.

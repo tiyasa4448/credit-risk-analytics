@@ -1,0 +1,239 @@
+Final assessment (Questions  MCQ)
+
+Dictionaries
+1. 
+What will my_dict = {'a': 1, 'b': 2}; my_dict['c'] return if 'c' is not a key in my_dict?
+• A) None
+• B) KeyError
+• C) 0
+• D) c
+• Answer: B) KeyError
+2. 
+Which method is used to get a default value if a key does not exist in a dictionary?
+• A) get()
+• B) pop()
+• C) items()
+• D) keys()
+• Answer: A) get()
+ 
+Tuples
+1. 
+What is the difference between a list and a tuple in Python?
+• A) Lists are immutable, but tuples are mutable
+• B) Tuples are immutable, but lists are mutable
+• C) Lists and tuples are both mutable
+• D) Lists and tuples are both immutable
+• Answer: B) Tuples are immutable, but lists are mutable
+2. 
+What will happen if you try to modify an element of a tuple?
+• A) The value will be changed
+• B) Python will allow modification if it's an integer
+• C) A TypeError will be raised
+• D) The tuple will convert into a list automatically
+• Answer: C) A TypeError will be raised
+ 
+Regular Expressions
+1. 
+What does the regular expression pattern \d+ match?
+• A) A single digit
+• B) One or more digits
+• C) Any character
+• D) A whitespace character
+• Answer: B) One or more digits
+2. 
+What is the purpose of the re.search() function in Python?
+• A) To replace text using regular expressions
+• B) To split a string based on a pattern
+• C) To search for a match anywhere in the string
+• D) To return a list of all matches in a string
+• Answer: C) To search for a match anywhere in the string
+ 
+Object-Oriented Programming (OOP)
+1. 
+What is the primary purpose of a class in Python?
+• A) To store a collection of functions
+• B) To create new primitive data types
+• C) To define a blueprint for creating objects
+• D) To execute a script automatically
+• Answer: C) To define a blueprint for creating objects
+2. 
+What does the self keyword represent in a Python class?
+• A) A reference to the current instance of the class
+• B) A built-in function
+• C) A reserved keyword for loops
+• D) The parent class
+• Answer: A) A reference to the current instance of the class
+
+1. 
+Which of the following is a correct way to remove the last element from a list in Python?
+• A) list.pop()
+• B) list.remove()
+• C) del list[-1]
+• D) Both A and C
+• Answer: D) Both A and C
+2. 
+What will be the output of the following code?
+
+my_list = [1, 2, 3, 4, 5]
+print(my_list[1:4])
+• A) [1, 2, 3, 4]
+• B) [2, 3, 4]
+• C) [2, 3, 4, 5]
+• D) [1, 2, 3]
+• Answer: B) [2, 3, 4]
+________
+
+Programming questions (5marks)
+
+1. 
+Word Frequency Counter
+Write a Python program that reads a sentence from the user and counts the frequency of each word using a dictionary. Display the word count.
+Example Input: "apple banana apple orange banana apple"
+Example Output:
+apple: 3
+banana: 2
+orange: 1
+2. 
+Merge Two Dictionaries
+Write a Python function that merges two dictionaries. If the same key exists in both dictionaries, sum the values.
+Example Input:
+dict1 = {'a': 10, 'b': 20}
+dict2 = {'b': 30, 'c': 40}
+Example Output: {'a': 10, 'b': 50, 'c': 40}
+ 
+Tuples
+1. 
+Find the Maximum and Minimum in a Tuple
+Write a Python program that takes a tuple of numbers as input and prints the maximum and minimum values.
+Example Input: (5, 10, 2, 8, 15, 1)
+Example Output:
+Maximum: 15
+Minimum: 1
+2. 
+Swap Tuple Elements
+Write a Python function to swap the first and last elements of a given tuple.
+Example Input: (10, 20, 30, 40, 50)
+Example Output: (50, 20, 30, 40, 10)
+ 
+Regular Expressions
+1. 
+Extract Email Addresses
+Write a Python program that extracts all email addresses from a given text using regular expressions.
+Example Input:
+"Please contact us at support@example.com or info@example.org for assistance."
+Example Output: ['support@example.com', 'info@example.org']
+2. 
+Validate a Phone Number
+Write a Python function that checks whether a given phone number follows the pattern: +91-9876543210.
+• It should start with +91-, followed by exactly 10 digits.
+• Return True if valid, False otherwise.
+Example Input: +91-9876543210
+Example Output: True
+Example Input: 9876543210
+Example Output: False
+ 
+Object-Oriented Programming (OOP)
+1. 
+Create a Simple Class
+Write a Python class Student with attributes name and marks, and a method display() to print the details of a student.
+Example Input:
+s1 = Student("Alice", 85)
+s1.display()
+Example Output:
+Name: Alice
+Marks: 85
+2. 
+Bank Account Class
+Create a class BankAccount with methods deposit(amount), withdraw(amount), and get_balance().
+• deposit(amount): Adds the amount to the balance.
+• withdraw(amount): Deducts the amount if sufficient balance is available.
+• get_balance(): Returns the current balance.
+Example Usage:
+
+acc = BankAccount(1000)
+acc.deposit(500)
+acc.withdraw(200)
+print(acc.get_balance())
+Example Output: 1300
+ 
+Lists
+1. 
+Remove Duplicates from a List
+Write a Python function that removes duplicate elements from a list and returns a new list.
+Example Input: [1, 2, 3, 2, 4, 5, 1]
+Example Output: [1, 2, 3, 4, 5]
+2. 
+Reverse a List without Using reverse()
+Write a Python program that reverses a list without using the built-in reverse() method.
+Example Input: [10, 20, 30, 40]
+Example Output: [40, 30, 20, 10]
+_____
+
+Short questions(3 marks) 
+
+1. 
+Access Dictionary Values
+Given the dictionary below, what will be the output of print(my_dict['b'])?
+my_dict = {'a': 10, 'b': 20, 'c': 30}
+• Marks: 3
+• Expected Output: 20
+2. 
+Check Key Existence
+Write a Python function that checks whether a given key exists in a dictionary.
+Example Input: my_dict = {'x': 5, 'y': 10}, key = 'y'
+Example Output: True
+ 
+Tuples
+1. 
+Tuple Indexing
+Given the tuple below, what will be the output of print(my_tuple[2])?
+my_tuple = (5, 10, 15, 20, 25)
+• Marks: 3
+• Expected Output: 15
+2. 
+Convert a Tuple to a List
+Write a Python function that converts a tuple into a list.
+Example Input: (1, 2, 3, 4)
+Example Output: [1, 2, 3, 4]
+ 
+Regular Expressions
+1. 
+Find All Digits
+Write a Python program using regular expressions to extract all numbers from the given text:
+"The price of the phone is 499 dollars and the discount is 50."
+• Marks: 3
+• Expected Output: ['499', '50']
+2. 
+Match a Pattern
+Write a regular expression to check if a string starts with a capital letter followed by lowercase letters.
+Example Input: "Hello"
+Example Output: Match Found
+ 
+Object-Oriented Programming (OOP)
+1. 
+Create an Empty Class
+Define a class named Car without any attributes or methods.
+• Marks: 3
+• Expected Output: Class should be defined successfully.
+2. 
+Create an Object of a Class
+Given the class definition below, create an object and print the student's name:
+class Student:
+    def __init__(self, name):
+        self.name = name
+Example Input: s = Student("Alice")
+Expected Output: Alice
+ 
+Lists
+1. 
+Access List Elements
+Given the list below, what will be the output of print(my_list[-3])?
+my_list = [10, 20, 30, 40, 50]
+• Marks: 3
+• Expected Output: 30
+2. 
+Sort a List
+Write a Python program to sort a list of numbers in ascending order.
+Example Input: [5, 2, 8, 1, 3]
+Expected Output: [1, 2, 3, 5, 8]
+ 

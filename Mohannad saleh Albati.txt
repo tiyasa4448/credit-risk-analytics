@@ -1,0 +1,129 @@
+Part 1:
+ 
+Q1.1
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: nums[1:4] refers to [2, 3, 4].
+Q1.2
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: Accessing a missing key raises KeyError.
+Q1.3
+Student's Answer: C, D
+Correct Answer: C, D
+Marks: ✅ 1/1
+Comments: Correct: (1, 2, 3) is a tuple, and 1, 2, 3 is also a valid tuple without parentheses.
+Q1.4
+Student's Answer: C
+Correct Answer: C
+Marks: ✅ 1/1
+Comments: Correct: A class defines a blueprint for creating objects.
+Q1.5
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: read() reads the entire file as a string.
+Q1.6
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: \d+ matches one or more digits.
+Q1.7
+Student's Answer: C
+Correct Answer: C
+Marks: ✅ 1/1
+Comments: Correct: Tuples are immutable; elements cannot be changed.
+Q1.8
+Student's Answer: C
+Correct Answer: C
+Marks: ✅ 1/1
+Comments: Correct: "w" mode overwrites existing files.
+Q1.9
+Student's Answer: B, D
+Correct Answer: B, D
+Marks: ✅ 1/1
+Comments: Correct: {} defines an empty dictionary, and {"name": "Alice", "age": 25} is a valid dictionary.
+Q1.10
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: .append(10) adds an element to the end of a list.
+ 
+Total Score for Q1.1 – Q1.10:
+✅ 10/10 🎉
+********
+
+Part 2 :
+
+Question
+Marks
+Comments
+Q2.1: How is a list different from a string? 
+❌ 1/2
+The core idea is correct, but the explanation has grammatical errors and lacks clarity. A string is also a sequence, but it's immutable, while lists can store multiple types and are mutable.
+Q2.2: How can you check if a given key exists in a dictionary? 
+❌ 0/2
+The try-except block is incorrect. The correct approach is: if "d" in q:. Also, "d" in q.keys() is redundant; if "d" in q: is sufficient.
+Q2.3: Modifying a list inside a tuple 
+✅ 2/2
+Correct concept and example. Minor grammar errors, but the explanation is accurate.
+Q2.4: Regex pattern for YYYY-MM-DD
+✅ 2/2
+Correct regex pattern with boundary markers (\b). Well done!
+Q2.5: Four pillars of OOP 
+❌ 0/2
+Incorrect terms. The correct pillars are Abstraction, Encapsulation, Inheritance, Polymorphism.
+Total Score: 5/10
+********
+
+Part 3 :
+
+Q3.1
+Criteria
+Marks
+Comments
+Random List Generation 
+✅ 1/1
+Correctly generates a list of 10 random numbers between 1 and 100.
+Counting Even and Odd Numbers 
+✅ 1/1
+Properly counts and separates even and odd numbers using lists.
+Calculating Average 
+✅ 1/1
+Correctly calculates the average, but could use sum(numbers) / len(numbers) for efficiency.
+Sorting the List 
+✅ 1/1
+Uses numbers.sort(), which correctly sorts the list in ascending order.
+Code Readability & Structure 
+❌ 0.5/1
+The code is well-structured, but has spelling mistakes in comments (e.g., "valuse" → "values", "wich" → "which", "meny" → "many"). Fixing these would improve readability.
+Output Format & Clarity 
+✅ 1/1
+Clearly prints all required outputs with f-strings.
+Final Score: 5.5/6 ✅
+Q3.3
+Criteria
+Marks
+Comments
+Creating a list of at least 5 menu items 
+✅ 1/1
+The menu contains 5 items with appropriate names and prices.
+Sorting menu items by price in ascending order 
+✅ 1/1
+The menu is correctly sorted using menu.sort(key=sort_fun).
+Allowing the user to search for an item by name 
+✅ 1/1
+The program takes user input and searches for a matching item in the menu.
+Handling input validation for menu size and price 
+❌ 0/1
+The try-except block is incorrectly used; exceptions won't be raised for an invalid item. Instead, a proper check should be implemented using if not check: print("Sorry, we don't have this item in our menu").
+Code Readability & Structure 
+✅ 1/1
+The code is readable, though minor improvements can be made. sort_fun could be replaced with a lambda function.
+Output Format & Clarity 
+✅ 1/1
+The menu and user interaction are displayed clearly.
+ 
+Final Score: 5/6 ✅

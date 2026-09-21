@@ -1,0 +1,15 @@
+# Python bytecode & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary directory locks
+~*

@@ -1,0 +1,156 @@
+🟩 0:00–0:10 – What is a Condition?
+“In programming, a condition is a question that leads to an action only if it’s true.
+Think of examples like:
+• 
+If it’s 6 AM, set the alarm.
+• 
+If you have money in your wallet, you can buy groceries.
+In Python, we use the if statement to ask these questions.”
+🧪 Mini Test (no code yet):
+• 
+“If a person is 21 years old, can they drive?”
+• 
+“If your bank balance is 0, can you withdraw money?”
+Let’s now do this in code.
+ 
+🟦 0:10–0:25 – if Statements + Indentation
+python
+Copy
+Edit
+age = int(input("Enter your age: "))
+
+mif age >= 18:
+    print("You are eligible to vote.")
+🛠️ Indentation Rule:
+Python uses spaces to know what belongs inside the condition.
+❌ Wrong:
+python
+Copy
+Edit
+if age >= 18:
+print("You can vote")  # Will throw an IndentationError
+✅ Right:
+python
+Copy
+Edit
+if age >= 18:
+    print("You can vote")  # Properly indented
+ 
+🟧 0:25–0:40 – Adding else: What if the condition is false?
+python
+Copy
+Edit
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+✅ This covers both outcomes.
+🧠 Pause and reflect: Change the input value and observe both outputs.
+ 
+🟨 0:40–0:50 – elif: More Than Two Options
+python
+Copy
+Edit
+temperature = int(input("Enter the temperature: "))
+
+if temperature > 30:
+    print("It’s hot today.")
+elif temperature >= 20:
+    print("It’s a pleasant day.")
+else:
+    print("It’s cold today.")
+✅ Python checks top to bottom and runs the first True condition.
+ 
+🧩 0:50–1:10 – Practical Exercises (with Answers)
+1. Check if a number is Positive, Negative, or Zero
+python
+Copy
+Edit
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+ 
+2. Check if a number is Even or Odd
+python
+Copy
+Edit
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+ 
+3. Assign Grades Based on Marks
+python
+Copy
+Edit
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Fail")
+ 
+⚙️ 1:10–1:25 – Logical Operators: and, or, not
+Example 1: Eligibility Check with and
+python
+Copy
+Edit
+age = int(input("Enter your age: "))
+has_id = input("Do you have a voter ID? (yes/no): ")
+
+if age >= 18 and has_id.lower() == "yes":
+    print("You are eligible to vote.")
+else:
+    print("You cannot vote.")
+Example 2: or Operator
+python
+Copy
+Edit
+day = input("Is it a weekend or a holiday? ")
+
+if day == "weekend" or day == "holiday":
+    print("You can relax today.")
+else:
+    print("Time to work!")
+ 
+🧠 1:25–1:45 – Final Practical Exercise
+Build a program that:
+• 
+Takes temperature as input
+• 
+Suggests what to wear
+python
+Copy
+Edit
+temp = int(input("Enter temperature: "))
+
+if temp > 30:
+    print("Wear light clothes and stay hydrated.")
+elif temp >= 20:
+    print("Wear something comfortable.")
+else:
+    print("Wear a jacket.")
+ 
+🧾 1:45–2:00 – Recap + Homework
+🔁 Recap:
+• 
+if, elif, else allow decision-making
+• 
+Always indent after if, else, or elif
+• 
+input() gets data from the user
+• 
+Use and, or, not for more logic

@@ -1,0 +1,127 @@
+Part 1 :
+
+Question
+Student's Answer
+Correct Answer
+Marks
+Comments
+Q1.1 B 
+✅ B
+1/1 
+Correct: nums[1:4] refers to [2, 3, 4].
+Q1.2 B 
+✅ B
+1/1 
+Correct: Accessing a missing key raises KeyError.
+Q1.3 C, D 
+✅ C, D
+1/1 
+Correct: Both (1, 2, 3) and 1, 2, 3 define tuples.
+Q1.4 C 
+✅ C
+1/1 
+Correct: A class defines a blueprint for objects.
+Q1.5 B 
+✅ B
+1/1 
+Correct: read() reads the entire file as a single string.
+Q1.6 B 
+✅ B
+1/1 
+Correct: \d+ matches one or more digits.
+Q1.7 C 
+✅ C
+1/1 
+Correct: Tuples are immutable, so elements cannot be changed.
+Q1.8 C 
+✅ C
+1/1 
+Correct: "w" mode overwrites the file if it exists.
+Q1.9 B, D 
+✅ B, D
+1/1 
+Correct: {} is an empty dictionary, and {"name": "Alice", "age": 25} is a dictionary with key-value pairs.
+Q1.10 B 
+✅ B
+1/1 
+Correct: .append(10) adds an element to the end of the list.
+Final Score: 10/10 🎯
+********
+
+part 2 :
+
+Question
+Marks
+Comments
+Q2.1 How is a list different from a string?
+2/2 
+Well explained! Lists are mutable and can store multiple data types, while strings are immutable.
+Q2.2 How can you check if a given key exists in a dictionary?
+2/2 
+Correct! Using if key in dictionary: is the best way to check for key existence.
+Q2.3 Given a tuple t = (1, 2, 3, [4, 5]), explain whether you can modify the list inside the tuple.
+2/2 
+Well answered! Tuples are immutable, but lists inside them can be modified.
+Q2.4 Write a regex pattern to extract all dates in the format YYYY-MM-DD from a given text.
+2/2
+Perfect! \b\d{4}-\d{2}-\d{2}\b is the correct pattern for extracting dates.
+Q2.5 What are the four pillars of Object-Oriented Programming?
+2/2 
+Excellent! Abstraction, Encapsulation, Inheritance, and Polymorphism are the four key pillars of OOP.
+Final Score: 10/10 🎯
+******** 
+
+Part 3 :
+
+Q3.1
+Criteria
+Marks
+Comments
+Random List Generation 1/1 
+✅ Correctly generates a list of 10 random numbers between 1 and 20.
+Counting Even and Odd Numbers 1/1 
+✅ Properly counts even and odd numbers using a loop.
+Calculating Average 1/1 
+✅ Uses sum(numbers) / len(numbers), which is the correct approach.
+Sorting the List 1/1 
+✅ Uses sorted(numbers), which correctly sorts the list in ascending order.
+Code Readability & Structure 1/1 
+✅ Code is well-structured and easy to understand, with meaningful comments.
+Output Format & Clarity 1/1 
+✅ Clearly prints all required outputs in a readable format.
+Final Score: 6/6 ✅
+Q3.3
+Criteria
+Marks
+Comments
+Creating a list of at least 5 menu items 1/1 
+✅ The program correctly initializes a menu with at least 5 items.
+Sorting menu items by price in ascending order 1/1 
+✅ The menu is sorted correctly, but the sorting logic could be optimized using sorted(menu, key=lambda item: item[1]).
+Allowing the user to search for an item by name 1/1 
+✅ The search mechanism works correctly and is case-insensitive using .lower().
+Handling input validation for menu size and price
+1/1
+✅ The program handles potential invalid inputs effectively.
+Code Readability & Structure 1/1 
+✅ The code is clear, structured, and easy to follow, with meaningful comments.
+Output Format & Clarity 1/1 
+✅ The output is clear, and the search function works correctly even in the unsorted menu.
+Final Score: 6/6 ✅
+Q3.4
+Criteria
+Marks
+Comments
+Reading the file correctly 1/1 
+✅ The program correctly opens and reads the file using with open(), and it properly handles FileNotFoundError.
+Extracting spam confidence values from lines 1/1 
+✅ The program correctly identifies lines starting with "X-DSPAM-Confidence:" and extracts the floating-point value.
+Calculating the average spam confidence 1/1 
+✅ The program correctly computes the average using sum(spam_confidences) / len(spam_confidences).
+Counting lines based on spam confidence values 1/1 
+✅ It correctly counts how many values are above or below the average.
+Handling errors & edge cases 1/1 
+✅ The program properly checks for an empty list (if not spam_confidences:) and handles invalid float conversions.
+Code Efficiency & Readability 1/1 
+✅ While .removeprefix() could improve clarity, the current split(":") approach works fine, and the logic is easy to follow.
+Final Score: 6/6 ✅

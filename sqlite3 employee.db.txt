@@ -1,0 +1,18 @@
+sqlite3 employee.db
+create table employee(id integer primarykey , name text , salary real , photo blob);
+.tables
+				
+insert into employee(id ,name , salary , photo) values(001, 'tiyasa', 80000.00, 0001111) ,(002, 'protyush', 90000.00, 01110000) , (003, 'soutik', 100000.00, 0111100000), (004, 'shampa', 50000.00, 000111000) , (005, 'chandra', 40000.00, 00001111);
+
+
+update employee set name='soutik' where id=2;	
+select * from employee where id=2;
+
+delete from employee where id=1;
+select id from employee;
+  
+
+alter table employee add column
+insert into employee(designation) values(' Financial analyst');
+.mode csv.output employee.csv
+.quit

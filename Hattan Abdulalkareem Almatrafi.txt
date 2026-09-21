@@ -1,0 +1,122 @@
+Part 1:
+
+Q1.1
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: nums[1:4] refers to [2, 3, 4].
+Q1.2
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: Accessing a missing key raises KeyError.
+Q1.3
+Student's Answer: C, D
+Correct Answer: C, D
+Marks: ✅ 1/1
+Comments: Correct: (1, 2, 3) is a tuple, and 1, 2, 3 is also a valid tuple without parentheses.
+Q1.4
+Student's Answer: C
+Correct Answer: C
+Marks: ✅ 1/1
+Comments: Correct: A class defines a blueprint for creating objects.
+Q1.5
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: read() reads the entire file as a string.
+Q1.6
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: \d+ matches one or more digits.
+Q1.7
+Student's Answer: C
+Correct Answer: C
+Marks: ✅ 1/1
+Comments: Correct: Tuples are immutable; elements cannot be changed.
+Q1.8
+Student's Answer: C
+Correct Answer: C
+Marks: ✅ 1/1
+Comments: Correct: "w" mode overwrites existing files.
+Q1.9
+Student's Answer: B, D
+Correct Answer: B, D
+Marks: ✅ 1/1
+Comments: Correct: {} defines an empty dictionary, and {"name": "Alice", "age": 25} is a valid dictionary.
+Q1.10
+Student's Answer: B
+Correct Answer: B
+Marks: ✅ 1/1
+Comments: Correct: .append(10) adds an element to the end of a list.
+ 
+Total Score for Q1.1 – Q1.10:
+✅ 10/10 🎉
+********
+
+Part 2 :
+
+Question
+Marks
+Comments
+Q2.1: How is a list different from a string? 
+❌ 1/2
+The explanation is too simplistic. Mentioning mutability (lists are mutable, strings are immutable) would make it more accurate.
+Q2.2: How can you check if a given key exists in a dictionary? 
+❌ 1/2
+Using dict['a'] directly can cause a KeyError. A better approach is if 'a' in dict: or dict.get('a').
+Q2.3: Modifying a list inside a tuple 
+❌ 0/2
+Incorrect. Tuples are immutable, but the list inside the tuple is mutable. You can modify the list. Example: t[3].append(6).
+Q2.4: Regex pattern for YYYY-MM-DD
+✅ 2/2
+Correct regex pattern. Well done!
+Q2.5: Four pillars of OOP 
+✅ 2/2
+Correct answer, and nicely formatted.
+Total Score: 6/10
+********
+
+Part 3 :
+Q3.3
+Criteria
+Marks
+Comments
+Creating a Menu with at least 4 Items 
+✅ 1/1
+The menu contains 4 items.
+Sorting Menu Items by Price 
+❌ 0/1
+menu.sort() doesn't work because dictionaries cannot be sorted this way.
+Allowing User to Search by Name 
+❌ 0/1
+The search logic is incorrect (for item in menu: doesn't check keys correctly).
+Handling Input Validation 
+❌ 0/1
+The code doesn't handle case sensitivity and doesn't give clear feedback if an item is missing.
+Code Readability & Structure 
+❌ 0/1
+The menu structure is incorrect (should be a dictionary, not a list of dictionaries).
+Output Format & Clarity 
+❌ 0/1
+The print statements are unclear and incorrect.
+ 
+Final Score: 1/6 ❌
+Q3.4
+Criteria
+Marks
+Comments
+Reading the file correctly 0.5/1 
+⚠️ The program opens the file but does not handle errors such as FileNotFoundError if the file does not exist. Using with open(file_name) as fh: would also be safer.
+Extracting spam confidence values from lines 1/1 
+✅ The program correctly identifies lines starting with "X-DSPAM-Confidence:" and extracts the floating-point value.
+Calculating the average spam confidence 1/1 
+✅ The program correctly sums the confidence values and calculates the average.
+Counting lines based on spam confidence values 0/1 
+❌ The conditions if conf > conf_avg: and elif conf < conf_avg: do not count how many lines are above or below the average. Instead, they just print line_count, which is incorrect.
+Handling errors & edge cases 0.5/1 
+⚠️ The program does not handle cases where line_count == 0, which could cause a division by zero error. Additionally, it only checks the last extracted conf value against conf_avg, which is incorrect.
+Code Efficiency & Readability 0.5/1 
+⚠️ Using split() works, but line.removeprefix("X-DSPAM-Confidence:").strip() would be cleaner. Also, the code does not use list comprehensions, which could improve efficiency.
+Final Score: 3.5/6 ⚠️
