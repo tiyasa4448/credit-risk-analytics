@@ -1,7 +1,0 @@
- i am tiaysa.
-=====
- i am learning pyhton.
-=====
- i am 23 years old.
-=====
- 

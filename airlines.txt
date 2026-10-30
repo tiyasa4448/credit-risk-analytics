@@ -1,8 +1,0 @@
-150726	Emirates
-107988	Lufthansa
-123381	Qatar
-150726	AirIndia
-109279	Multiple
-111086	Kuwait
-115657	Etihad
-107988	Multiple
